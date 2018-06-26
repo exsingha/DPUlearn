@@ -13,11 +13,15 @@ namespace TestExceptionConsoleApp
         {
             try
             {
-                int x = Convert.ToInt32(Console.ReadLine());
-                Console.WriteLine(10 / x);
-                Console.WriteLine("after divide");
-                writeFile("C:/Users/DPU/source/repos/DPUlearn/TestExceptionConsoleApp/myoutput.txt");
-                readFile("C:/Users/DPU/source/repos/DPUlearn/TestExceptionConsoleApp/myoutput.txt");
+                //int x = Convert.ToInt32(Console.ReadLine());
+                //Console.WriteLine(10 / x);
+                //Console.WriteLine("after divide");
+                //writeFile("C:/Users/DPU/source/repos/DPUlearn/TestExceptionConsoleApp/myoutput.txt");
+                //readFile("C:/Users/DPU/source/repos/DPUlearn/TestExceptionConsoleApp/myoutput.txt");
+                string path = Directory.GetCurrentDirectory();
+
+                writeFile("C:/Users/DPU/source/repos/DPUlearn/TestExceptionConsoleApp/chapter8.txt");
+                readFile("C:/Users/DPU/source/repos/DPUlearn/TestExceptionConsoleApp/chapter8.txt");
             }
             catch(IOException e)
             {
@@ -61,7 +65,8 @@ namespace TestExceptionConsoleApp
         static void writeFile(string filename)
         {
             StreamWriter sw = new StreamWriter(filename, true,Encoding.Unicode);
-            sw.WriteLine("Chanatip");
+            //sw.WriteLine("Chanatip");
+            sw.WriteLine("My First Text file");
             sw.Close();
         }
     }
