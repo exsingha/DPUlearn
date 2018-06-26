@@ -40,7 +40,7 @@ namespace TestExceptionConsoleApp
         }
         static void readFile(string filename)
         {
-            string line="";
+            string line = "";
             StreamReader sr = new StreamReader(filename);
             //line = sr.ReadLine();
             //while(line != null)
@@ -57,7 +57,7 @@ namespace TestExceptionConsoleApp
             sr.Close();
             Console.WriteLine();
         }
-
+        //hello
         static void writeFile(string filename)
         {
             StreamWriter sw = new StreamWriter(filename, true,Encoding.Unicode);
