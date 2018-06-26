@@ -1,0 +1,7 @@
+C:\Users\DPU\source\repos\Premid01\Premid01\bin\Debug\Premid01.exe.config
+C:\Users\DPU\source\repos\Premid01\Premid01\bin\Debug\Premid01.exe
+C:\Users\DPU\source\repos\Premid01\Premid01\bin\Debug\Premid01.pdb
+C:\Users\DPU\source\repos\Premid01\Premid01\obj\Debug\Premid01.csprojAssemblyReference.cache
+C:\Users\DPU\source\repos\Premid01\Premid01\obj\Debug\Premid01.csproj.CoreCompileInputs.cache
+C:\Users\DPU\source\repos\Premid01\Premid01\obj\Debug\Premid01.exe
+C:\Users\DPU\source\repos\Premid01\Premid01\obj\Debug\Premid01.pdb

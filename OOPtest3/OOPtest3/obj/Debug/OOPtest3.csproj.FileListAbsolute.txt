@@ -1,0 +1,6 @@
+C:\Users\DPU\source\repos\OOPtest3\OOPtest3\bin\Debug\OOPtest3.exe.config
+C:\Users\DPU\source\repos\OOPtest3\OOPtest3\bin\Debug\OOPtest3.exe
+C:\Users\DPU\source\repos\OOPtest3\OOPtest3\bin\Debug\OOPtest3.pdb
+C:\Users\DPU\source\repos\OOPtest3\OOPtest3\obj\Debug\OOPtest3.csproj.CoreCompileInputs.cache
+C:\Users\DPU\source\repos\OOPtest3\OOPtest3\obj\Debug\OOPtest3.exe
+C:\Users\DPU\source\repos\OOPtest3\OOPtest3\obj\Debug\OOPtest3.pdb

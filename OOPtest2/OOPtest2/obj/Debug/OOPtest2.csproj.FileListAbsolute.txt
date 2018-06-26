@@ -1,0 +1,6 @@
+C:\Users\DPU\source\repos\OOPtest2\OOPtest2\bin\Debug\OOPtest2.exe.config
+C:\Users\DPU\source\repos\OOPtest2\OOPtest2\bin\Debug\OOPtest2.exe
+C:\Users\DPU\source\repos\OOPtest2\OOPtest2\bin\Debug\OOPtest2.pdb
+C:\Users\DPU\source\repos\OOPtest2\OOPtest2\obj\Debug\OOPtest2.csproj.CoreCompileInputs.cache
+C:\Users\DPU\source\repos\OOPtest2\OOPtest2\obj\Debug\OOPtest2.exe
+C:\Users\DPU\source\repos\OOPtest2\OOPtest2\obj\Debug\OOPtest2.pdb

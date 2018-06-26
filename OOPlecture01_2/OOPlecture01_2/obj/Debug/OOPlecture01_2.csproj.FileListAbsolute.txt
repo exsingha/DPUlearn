@@ -1,0 +1,6 @@
+C:\Users\DPU\source\repos\OOPlecture01_2\OOPlecture01_2\obj\Debug\OOPlecture01_2.csproj.CoreCompileInputs.cache
+C:\Users\DPU\source\repos\OOPlecture01_2\OOPlecture01_2\bin\Debug\OOPlecture01_2.exe.config
+C:\Users\DPU\source\repos\OOPlecture01_2\OOPlecture01_2\bin\Debug\OOPlecture01_2.exe
+C:\Users\DPU\source\repos\OOPlecture01_2\OOPlecture01_2\bin\Debug\OOPlecture01_2.pdb
+C:\Users\DPU\source\repos\OOPlecture01_2\OOPlecture01_2\obj\Debug\OOPlecture01_2.exe
+C:\Users\DPU\source\repos\OOPlecture01_2\OOPlecture01_2\obj\Debug\OOPlecture01_2.pdb

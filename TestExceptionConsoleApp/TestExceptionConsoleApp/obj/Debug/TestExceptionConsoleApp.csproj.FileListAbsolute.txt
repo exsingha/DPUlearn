@@ -1,0 +1,14 @@
+C:\Users\DPU\source\repos\TestExceptionConsoleApp\TestExceptionConsoleApp\bin\Debug\TestExceptionConsoleApp.exe.config
+C:\Users\DPU\source\repos\TestExceptionConsoleApp\TestExceptionConsoleApp\bin\Debug\TestExceptionConsoleApp.exe
+C:\Users\DPU\source\repos\TestExceptionConsoleApp\TestExceptionConsoleApp\bin\Debug\TestExceptionConsoleApp.pdb
+C:\Users\DPU\source\repos\TestExceptionConsoleApp\TestExceptionConsoleApp\obj\Debug\TestExceptionConsoleApp.csprojAssemblyReference.cache
+C:\Users\DPU\source\repos\TestExceptionConsoleApp\TestExceptionConsoleApp\obj\Debug\TestExceptionConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\DPU\source\repos\TestExceptionConsoleApp\TestExceptionConsoleApp\obj\Debug\TestExceptionConsoleApp.exe
+C:\Users\DPU\source\repos\TestExceptionConsoleApp\TestExceptionConsoleApp\obj\Debug\TestExceptionConsoleApp.pdb
+C:\Users\DPU\source\repos\DPUlearn\TestExceptionConsoleApp\TestExceptionConsoleApp\bin\Debug\TestExceptionConsoleApp.exe.config
+C:\Users\DPU\source\repos\DPUlearn\TestExceptionConsoleApp\TestExceptionConsoleApp\bin\Debug\TestExceptionConsoleApp.exe
+C:\Users\DPU\source\repos\DPUlearn\TestExceptionConsoleApp\TestExceptionConsoleApp\bin\Debug\TestExceptionConsoleApp.pdb
+C:\Users\DPU\source\repos\DPUlearn\TestExceptionConsoleApp\TestExceptionConsoleApp\obj\Debug\TestExceptionConsoleApp.csprojAssemblyReference.cache
+C:\Users\DPU\source\repos\DPUlearn\TestExceptionConsoleApp\TestExceptionConsoleApp\obj\Debug\TestExceptionConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\DPU\source\repos\DPUlearn\TestExceptionConsoleApp\TestExceptionConsoleApp\obj\Debug\TestExceptionConsoleApp.exe
+C:\Users\DPU\source\repos\DPUlearn\TestExceptionConsoleApp\TestExceptionConsoleApp\obj\Debug\TestExceptionConsoleApp.pdb

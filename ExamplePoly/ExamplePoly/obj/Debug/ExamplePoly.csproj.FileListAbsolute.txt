@@ -1,0 +1,7 @@
+C:\Users\DPU\source\repos\ExamplePoly\ExamplePoly\bin\Debug\ExamplePoly.exe.config
+C:\Users\DPU\source\repos\ExamplePoly\ExamplePoly\bin\Debug\ExamplePoly.exe
+C:\Users\DPU\source\repos\ExamplePoly\ExamplePoly\bin\Debug\ExamplePoly.pdb
+C:\Users\DPU\source\repos\ExamplePoly\ExamplePoly\obj\Debug\ExamplePoly.csprojAssemblyReference.cache
+C:\Users\DPU\source\repos\ExamplePoly\ExamplePoly\obj\Debug\ExamplePoly.csproj.CoreCompileInputs.cache
+C:\Users\DPU\source\repos\ExamplePoly\ExamplePoly\obj\Debug\ExamplePoly.exe
+C:\Users\DPU\source\repos\ExamplePoly\ExamplePoly\obj\Debug\ExamplePoly.pdb

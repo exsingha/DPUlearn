@@ -1,0 +1,7 @@
+C:\Users\DPU\source\repos\OOPtest1\OOPtest1\bin\Debug\OOPtest1.exe.config
+C:\Users\DPU\source\repos\OOPtest1\OOPtest1\bin\Debug\OOPtest1.exe
+C:\Users\DPU\source\repos\OOPtest1\OOPtest1\bin\Debug\OOPtest1.pdb
+C:\Users\DPU\source\repos\OOPtest1\OOPtest1\obj\Debug\OOPtest1.csprojAssemblyReference.cache
+C:\Users\DPU\source\repos\OOPtest1\OOPtest1\obj\Debug\OOPtest1.csproj.CoreCompileInputs.cache
+C:\Users\DPU\source\repos\OOPtest1\OOPtest1\obj\Debug\OOPtest1.exe
+C:\Users\DPU\source\repos\OOPtest1\OOPtest1\obj\Debug\OOPtest1.pdb

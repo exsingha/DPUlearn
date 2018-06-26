@@ -1,0 +1,7 @@
+C:\Users\DPU\source\repos\TestMidterm\TestMidterm\bin\Debug\TestMidterm.exe.config
+C:\Users\DPU\source\repos\TestMidterm\TestMidterm\bin\Debug\TestMidterm.exe
+C:\Users\DPU\source\repos\TestMidterm\TestMidterm\bin\Debug\TestMidterm.pdb
+C:\Users\DPU\source\repos\TestMidterm\TestMidterm\obj\Debug\TestMidterm.csprojAssemblyReference.cache
+C:\Users\DPU\source\repos\TestMidterm\TestMidterm\obj\Debug\TestMidterm.csproj.CoreCompileInputs.cache
+C:\Users\DPU\source\repos\TestMidterm\TestMidterm\obj\Debug\TestMidterm.exe
+C:\Users\DPU\source\repos\TestMidterm\TestMidterm\obj\Debug\TestMidterm.pdb

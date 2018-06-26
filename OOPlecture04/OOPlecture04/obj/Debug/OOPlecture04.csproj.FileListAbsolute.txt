@@ -1,0 +1,7 @@
+C:\Users\DPU\source\repos\OOPlecture04\OOPlecture04\bin\Debug\OOPlecture04.exe.config
+C:\Users\DPU\source\repos\OOPlecture04\OOPlecture04\bin\Debug\OOPlecture04.exe
+C:\Users\DPU\source\repos\OOPlecture04\OOPlecture04\bin\Debug\OOPlecture04.pdb
+C:\Users\DPU\source\repos\OOPlecture04\OOPlecture04\obj\Debug\OOPlecture04.csprojAssemblyReference.cache
+C:\Users\DPU\source\repos\OOPlecture04\OOPlecture04\obj\Debug\OOPlecture04.csproj.CoreCompileInputs.cache
+C:\Users\DPU\source\repos\OOPlecture04\OOPlecture04\obj\Debug\OOPlecture04.exe
+C:\Users\DPU\source\repos\OOPlecture04\OOPlecture04\obj\Debug\OOPlecture04.pdb

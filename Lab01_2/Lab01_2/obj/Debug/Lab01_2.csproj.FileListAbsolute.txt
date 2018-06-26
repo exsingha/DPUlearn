@@ -1,0 +1,6 @@
+C:\Users\DPU\source\repos\Lab01_2\Lab01_2\bin\Debug\Lab01_2.exe.config
+C:\Users\DPU\source\repos\Lab01_2\Lab01_2\bin\Debug\Lab01_2.exe
+C:\Users\DPU\source\repos\Lab01_2\Lab01_2\bin\Debug\Lab01_2.pdb
+C:\Users\DPU\source\repos\Lab01_2\Lab01_2\obj\Debug\Lab01_2.csproj.CoreCompileInputs.cache
+C:\Users\DPU\source\repos\Lab01_2\Lab01_2\obj\Debug\Lab01_2.exe
+C:\Users\DPU\source\repos\Lab01_2\Lab01_2\obj\Debug\Lab01_2.pdb
