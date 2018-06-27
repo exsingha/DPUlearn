@@ -1,0 +1,62 @@
+﻿<Window x:Class="TabControl.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TabControl"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <TabControl x:Name="Maintab"
+                    Margin="10" 
+                    Height="300" >
+            <TabItem Header="Tab1">
+                <StackPanel Margin="10">
+                    <RadioButton x:Name="luffy"
+                                 Content="Luffy"
+                                 Margin="0,0,0,5"
+                                 Checked="luffy_Checked"/>
+                    <RadioButton x:Name="usoop"
+                                 Content="Usoop"
+                                 Margin="0,0,0,5"
+                                 Checked="usoop_Checked"/>
+                    <RadioButton x:Name="zolo"
+                                 Content="Zolo"
+                                 Margin="0,0,0,5"
+                                 Checked="zolo_Checked"/>
+                    <RadioButton x:Name="nami"
+                                 Content="Nami"
+                                 Margin="0,0,0,5"
+                                 Checked="nami_Checked"/>
+                    <RadioButton x:Name="sanji"
+                                 Content="Sanji"
+                                 Margin="0,0,0,5"
+                                 Checked="sanji_Checked"/>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition></ColumnDefinition>
+                            <ColumnDefinition></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+                        <Button x:Name="clearButton"
+                                Margin="10"
+                                Content="Clear"
+                                Grid.Column="0" Click="clearButton_Click"/>
+                        <Button x:Name="nextButton"
+                                Margin="10"
+                                Content="Next"
+                                Grid.Column="1" Click="nextButton_Click"/>
+                    </Grid>
+
+                </StackPanel>
+            </TabItem>
+            <TabItem Header="Tab2">
+                <Label x:Name="fightLabel"
+                       Content=""/>
+            </TabItem>
+            <TabItem Header="Tab3">
+                
+            </TabItem>
+        </TabControl>
+
+    </Grid>
+</Window>

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{82107D5C-D7CA-46E0-8343-6B57E7BD755A}</ProjectGuid>
+    <ProjectGuid>{CCEECA44-0C4D-442F-A9E4-0E3338574922}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>OOPLecture09</RootNamespace>
-    <AssemblyName>OOPLecture09</AssemblyName>
+    <RootNamespace>Lab09_01</RootNamespace>
+    <AssemblyName>Lab09_01</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,13 +42,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Human.cs" />
-    <Compile Include="Line.cs" />
-    <Compile Include="LivingThing.cs" />
-    <Compile Include="Monkey.cs" />
+    <Compile Include="Circle.cs" />
+    <Compile Include="Comparable.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Relation.cs" />
+    <Compile Include="Rectangle.cs" />
+    <Compile Include="Shape.cs" />
+    <Compile Include="Square.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
