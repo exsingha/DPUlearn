@@ -75,7 +75,7 @@
                 </StackPanel>
             </TabItem>
             <TabItem Header="Fight">
-                <StackPanel>
+                <!--<StackPanel>
                     <Grid>
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition></ColumnDefinition>
@@ -105,7 +105,56 @@
                Content=""
                Margin="10"
                HorizontalAlignment="Center"/>
-                </StackPanel>
+                </StackPanel>-->
+                <Grid>
+                    <ListView x:Name="lvPirate">
+                        <!--<ListViewItem>Item 1</ListViewItem>
+            <ListViewItem>Item 2</ListViewItem>
+            <ListViewItem>Item 3</ListViewItem>-->
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn Header="Name"
+                                    Width="100"
+                                    DisplayMemberBinding="{Binding Name}"/>
+                                <GridViewColumn Header="Health"
+                                    Width="100"
+                                    DisplayMemberBinding="{Binding Health}"/>
+                                <GridViewColumn Header="Pirate"
+                                    Width="100">
+                                    <GridViewColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <StackPanel>
+                                                <Image Source="{Binding ImageSource}"
+                                           Width="50"
+                                           Height="50"/>
+                                            </StackPanel>
+                                        </DataTemplate>
+                                    </GridViewColumn.CellTemplate>
+                                </GridViewColumn>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition></RowDefinition>
+                            <RowDefinition></RowDefinition>
+                        </Grid.RowDefinitions>
+                        <StackPanel Grid.Row="1">
+                            <Label x:Name="labelshow"
+                                     Content="Luffy.jpg"
+                                     Margin="10"
+                                     HorizontalAlignment="Center"/>
+                            <Button x:Name="btn1"
+                                    Content="Fight!"
+                                    Width="100"
+                                    Click="btn1_Click"/>
+                            <Label x:Name="labelchange"
+                                   Content=""
+                                   Margin="10"
+                                   HorizontalAlignment="Center"/>
+                        </StackPanel>
+                    </Grid>
+                </Grid>
             </TabItem>
         </TabControl>
     </Grid>
