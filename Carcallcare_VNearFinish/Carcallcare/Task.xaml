@@ -1,0 +1,330 @@
+﻿<Window x:Class="Carcallcare.Task"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Carcallcare"
+        mc:Ignorable="d"
+        Title="Task" Height="975" Width="1300" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid Background="#F9F8FD">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="211*"></RowDefinition>
+            <RowDefinition Height="127*"></RowDefinition>
+            <RowDefinition Height="108*"></RowDefinition>
+            <RowDefinition Height="108*"></RowDefinition>
+            <RowDefinition Height="108*"></RowDefinition>
+            <RowDefinition Height="108*"/>
+            <RowDefinition Height="108*"/>
+            <RowDefinition Height="108*"/>
+
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="180*"></ColumnDefinition>
+            <ColumnDefinition Width="469*"></ColumnDefinition>
+            <ColumnDefinition Width="645*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <!-- title image -->
+        <Image Source="/images/title01.png"
+               VerticalAlignment="Top" Grid.ColumnSpan="3" Height="165" Margin="0,0,-6,0"/>
+
+        <!-- exit button -->
+        <Button x:Name="exit_task"
+                Click="exit_task_Click"
+                Margin="0,35,40,0"
+                Width="48"
+                Height="58"
+                HorizontalAlignment="Right"
+                VerticalAlignment="Top"
+                BorderBrush="Transparent"
+                Cursor="Hand"
+                Grid.Column="2">
+            <Image Source="/images/exit_icon01.png" />
+        </Button>
+
+        <!-- image profile -->
+        <Image Source="/images/profile_first.png"
+                   VerticalAlignment="Top"
+                   Margin="40,10,30,0" Height="110"/>
+
+        <!-- name of user -->
+        <Label x:Name="username_task"
+               Margin="20,10,0,0"
+               FontFamily="RSU"
+               FontSize="35"
+               FontWeight="Bold"
+               Foreground="#3D4657"
+               Content="USERNAME"
+               Grid.Column ="1" />
+
+        <!--  url example : call center/home  -->
+        <Label x:Name="url_task"
+               Margin="20,65,0,0"
+               FontFamily="RSU"
+               FontSize="30"
+               FontWeight="Regular"
+               Foreground="White"
+               Content="Call Center / Home / Add New Task"
+               Grid.Column="1" Grid.ColumnSpan="2"/>
+
+        <!--  inbound task list  -->
+        <Label Content="Add New Task"
+               Margin="40,0,0,0"
+               FontFamily="RSU"
+               FontSize="43"
+               FontWeight="Bold"
+               Foreground="#3D4657"
+               Grid.Row="1"
+               Grid.ColumnSpan="2"/>
+
+        <!--  Issue list  -->
+        <!--<Label Content="Issue List"
+               Margin="40,3,34,133"
+               Background="#196A9F"
+               Foreground="White"
+               FontFamily="RSU"
+               FontWeight="Bold"
+               FontSize="25"
+               Grid.Row="2"
+               Grid.ColumnSpan="3"/>-->
+
+        <!--  mobile number  -->
+        <Label Content="Mobile Number"
+               Margin="40,0,0,0"
+               FontFamily="RSU"
+               FontSize="20pt"
+               FontWeight="DemiBold"
+               Foreground="#231F20"
+               Grid.Row="2"
+               Grid.ColumnSpan="2"/>
+        <Border CornerRadius="5"
+                    BorderThickness="2"
+                    BorderBrush="#C9C9C9"
+                    Background="#F0EFF4"
+                    Margin="0,45,0,0"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    Width="400pt"
+                    Height="35pt"
+                    Grid.Row="2"
+                    Grid.ColumnSpan="2"
+                    >
+            <TextBox x:Name="mobile_num"
+                     Text=" MaxLength 10 characters"
+                     FontFamily="RSU"
+                     FontSize="19pt"
+                     Foreground="#A5A4A7"
+                     BorderBrush="Transparent"
+                     Background="Transparent" GotFocus="mobile_num_GotFocus"
+                     />
+        </Border>
+
+        <!--  customer name  -->
+        <Label Content="Customer Name"
+               Margin="40,0,0,0"
+               FontFamily="RSU"
+               FontSize="20pt"
+               FontWeight="DemiBold"
+               Foreground="#231F20"
+               Grid.Row="3"
+               Grid.ColumnSpan="2"/>
+        <Border CornerRadius="5"
+                    BorderThickness="2"
+                    BorderBrush="#C9C9C9"
+                    Background="#F0EFF4"
+                    Margin="0,45,0,0"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    Width="400pt"
+                    Height="35pt"
+                    Grid.Row="3"
+                    Grid.ColumnSpan="2"
+                    >
+            <TextBox x:Name="customer_name"
+                     FontFamily="RSU"
+                     FontSize="19pt"
+                     Foreground="#A5A4A7"
+                     BorderBrush="Transparent"
+                     Background="Transparent"
+                     />
+        </Border>
+
+        <!--  booking no.  -->
+        <Label Content="Booking Reference No."
+               Margin="40,0,0,0"
+               FontFamily="RSU"
+               FontSize="20pt"
+               FontWeight="DemiBold"
+               Foreground="#231F20"
+               Grid.Row="4"
+               Grid.ColumnSpan="2"/>
+        <Border CornerRadius="5"
+                    BorderThickness="2"
+                    BorderBrush="#C9C9C9"
+                    Background="#F0EFF4"
+                    Margin="0,45,0,0"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    Width="400pt"
+                    Height="35pt"
+                    Grid.Row="4"
+                    Grid.ColumnSpan="2"
+                    >
+            <TextBox x:Name="booking_no"
+                     FontFamily="RSU"
+                     FontSize="19pt"
+                     Foreground="#A5A4A7"
+                     BorderBrush="Transparent"
+                     Background="Transparent"
+                     />
+        </Border>
+
+        <!--  task type  -->
+        <Label Content="Task Type"
+               Margin="40,0,0,0"
+               FontFamily="RSU"
+               FontSize="20pt"
+               FontWeight="DemiBold"
+               Foreground="#231F20"
+               Grid.Row="5"
+               Grid.ColumnSpan="2"/>
+        <Border CornerRadius="5"
+                    BorderThickness="2"
+                    BorderBrush="#C9C9C9"
+                    Background="#F0EFF4"
+                    Margin="0,45,0,0"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    Width="400pt"
+                    Height="35pt"
+                    Grid.Row="5"
+                    Grid.ColumnSpan="2"
+                    >
+            <ComboBox x:Name="task_type"
+                     FontFamily="RSU"
+                     FontSize="19pt"
+                     Foreground="#A5A4A7"
+                     BorderBrush="Transparent"
+                     Background="Transparent"
+                      Text="Complain">
+                <ComboBoxItem Content="Complain"/>
+                <ComboBoxItem Content="Accident"/>
+            </ComboBox>
+        </Border>
+
+        <!--  Status  -->
+        <Label Content="Status"
+               Margin="40,0,0,0"
+               FontFamily="RSU"
+               FontSize="20pt"
+               FontWeight="DemiBold"
+               Foreground="#231F20"
+               Grid.Row="6"
+               Grid.ColumnSpan="2"/>
+        <Border CornerRadius="5"
+                    BorderThickness="2"
+                    BorderBrush="#C9C9C9"
+                    Background="#F0EFF4"
+                    Margin="0,45,0,0"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    Width="400pt"
+                    Height="35pt"
+                    Grid.Row="6"
+                    Grid.ColumnSpan="2"
+                    >
+            <ComboBox x:Name="status"
+                     FontFamily="RSU"
+                     FontSize="19pt"
+                     Foreground="#A5A4A7"
+                     BorderBrush="Transparent"
+                     Background="Transparent"
+                     Text="Open">
+                <ComboBoxItem Content="Open"/>
+                <ComboBoxItem Content="Close"/>
+            </ComboBox>
+        </Border>
+        
+        <!--  task decription  -->
+        <Label Content="Task Decription"
+               Margin="40,0,0,0"
+               FontFamily="RSU"
+               FontSize="20pt"
+               FontWeight="DemiBold"
+               Foreground="#231F20"
+               Grid.Row="2"
+               Grid.Column="2"/>
+        <Border CornerRadius="5"
+                    BorderThickness="2"
+                    BorderBrush="#C9C9C9"
+                    Background="#F0EFF4"
+                    Margin="0,50,0,0"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Top"
+                    Width="400pt"
+                    Height="190pt"
+                    MaxHeight="230"
+                    Grid.Row="2"
+                    Grid.RowSpan="3"
+                    Grid.Column="2"
+                    >
+            <TextBox x:Name="task_des"
+                     FontFamily="RSU"
+                     FontSize="19pt"
+                     Foreground="#A5A4A7"
+                     BorderBrush="Transparent"
+                     Background="Transparent"
+                     TextWrapping="Wrap"
+                     ScrollViewer.VerticalScrollBarVisibility="Auto"
+                     />
+        </Border>
+
+        <!-- button submit -->
+        <Button x:Name="submit_btn"
+                    Content="Submit"
+                    Margin="56,51,0,0"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    Width="223"
+                    Height="42"
+                    Background="#03A8E7"
+                    BorderBrush="Transparent"
+                    Foreground="White"
+                    FontFamily="RSU"
+                    FontSize="15pt"
+                    Grid.Row="5" Grid.Column="2" Click="submit_Click"
+                    >
+            <Button.BitmapEffect>
+                <DropShadowBitmapEffect Color="#049EB7"
+                                            Direction="320"
+                                            ShadowDepth="25"
+                                            Softness="1" 
+                                            Opacity="0.3"/>
+            </Button.BitmapEffect>
+        </Button>
+        
+        <!-- button back -->
+        <Button x:Name="back_btn"
+                    Content="Back"
+                    Margin="0,51,56,0"
+                    HorizontalAlignment="Right"
+                    VerticalAlignment="Top"
+                    Width="223"
+                    Height="42"
+                    Background="#3D4657"
+                    BorderBrush="Transparent"
+                    Foreground="White"
+                    FontFamily="RSU"
+                    FontSize="15pt"
+                    Grid.Row="5" Grid.Column="2" Click="back_btn_Click"
+                    >
+            <Button.BitmapEffect>
+                <DropShadowBitmapEffect Color="#3D4657"
+                                            Direction="320"
+                                            ShadowDepth="25"
+                                            Softness="1" 
+                                            Opacity="0.3"/>
+            </Button.BitmapEffect>
+        </Button>
+    </Grid>
+</Window>
